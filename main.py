@@ -58,7 +58,7 @@ def reporthook(count, block_size, total_size):
 # downloads stanford parser
 def download_parser_jar_file():
     stanford_parser_zip_file_path = os.environ.get('CLASSPATH') + ".jar"
-    url = "https://nlp.stanford.edu/software/stanford-parser-full-2018-10-17.zip"
+    url = "https://drive.google.com/file/d/1lEafb759ZbA33VNvwZOr0fznhtC4Kf4P/view"
     urllib.request.urlretrieve(url, stanford_parser_zip_file_path, reporthook)
 
 # extracts stanford parser
